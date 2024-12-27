@@ -27,12 +27,14 @@
 
 - **Android**: Use the following command to run the app on an Android device or emulator:
     ```sh
+    flutter pub get
     dart run build_runner build -d 
     flutter run
     ```
 
 - **iOS**: Use the following command to run the app on an iOS device or simulator:
     ```sh
+    flutter pub get
     dart run build_runner build -d 
     flutter run
     ```
